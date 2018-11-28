@@ -1,0 +1,60 @@
+<td>{<a href="#" onClick={this.update.bind(this, data, key)}> Update
+    </a>}</td>
+==========================================================================
+                <div>
+                    <h2>Update</h2>
+                    <table border="1">
+                        <tbody>
+                            <tr><td>UserName</td><td><input type="text" ref="prodId1" value={this.state.id} /></td></tr>
+                            <tr><td>Email id</td><td><input type="text" ref="prodName1" value={this.state.name} /></td></tr>
+                            <tr><td>Mobile Number</td><td><input type="text" ref="prodPrice1" value={this.state.price} /></td></tr>
+                            <tr><td>Address</td><td><input type="text" ref="addr1" value={this.state.price} /></td></tr>
+                            <tr><td>Description</td><td><input type="text" ref="description1" value={this.state.price} /></td></tr>
+                            <tr><td>Date oF Birth</td><td><input type="text" ref="date1" value={this.state.price} /></td></tr>
+                            <tr><td><button onClick={this.updatenew.bind(this)}>Update</button></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                {/* {myListData1} */}
+                {this.props.children}
+            </div>
+==========================================================================
+
+    // update(i, k) {
+    //     this.refs.custId1.value = i.custId;
+    //     this.refs.custName1.value = i.custName;
+    //     this.refs.custMobile1.value = i.custMobile;
+    //     this.refs.addr1.value = i.addr;
+    //     this.refs.description1.value = i.description;
+    //     this.refs.date1.value = i.date;
+    //     this.a = k
+    // }
+
+
+    // updatenew() {
+    //     var z = this.a;
+    //     this.setState({
+    //         data: {
+    //             custId: this.refs.custId1.value,
+    //             custName: this.refs.custName1.value,
+    //             custMobile: this.refs.custMobile1.value,
+    //             addr:this.refs.addr1.value,
+    //             description:this.refs.description1.value,
+    //             date:this.refs.date1.value
+    //         }
+    //     }, function () {
+    //         this.props.pobject1(this.state.data, z)
+    //     }
+    //     )
+    //     this.refs.custId1.value = "";
+    //     this.refs.custName1.value = "";
+    //     this.refs.custMobile1.value = "";
+    //     this.refs.addr1.value="";
+    //     this.refs.description1.value="";
+    //     this.refs.date1.value="";
+    // }
+
+
+
+class---
+a;
